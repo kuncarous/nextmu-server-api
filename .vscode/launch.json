@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node-terminal",
+            "name": "Run Script: build:proto",
+            "request": "launch",
+            "command": "pnpm run build:proto",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "node-terminal",
+            "name": "Run Script: start:dev",
+            "request": "launch",
+            "command": "pnpm run start:dev",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}

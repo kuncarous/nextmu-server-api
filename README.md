@@ -1,2 +1,1 @@
-# nextmu-server-api
-NextMU Server API
+# elion-server-api
