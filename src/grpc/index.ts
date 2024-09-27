@@ -28,7 +28,7 @@ export const Initialize = async () => {
         itemService.service,
     );
     server.bindAsync(
-        `0.0.0.0:${process.env.GRPC_PORT || 8700}`,
+        `0.0.0.0:${process.env.GRPC_PORT || 8720}`,
         ServerCredentials.createInsecure(),
         (err: Error | null, bindPort: number) => {
             if (err) {

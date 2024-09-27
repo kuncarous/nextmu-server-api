@@ -4,7 +4,7 @@ import * as gRPC from '~/grpc';
 import { logger } from '~/logger';
 import app from '~/server';
 
-const port = Number(process.env.API_PORT || 8701);
+const port = Number(process.env.API_PORT || 8721);
 async function start() {
     await gRPC.Initialize();
     app.listen(port, () =>
