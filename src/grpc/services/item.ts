@@ -1,6 +1,6 @@
 import * as grpc from '@grpc/grpc-js';
 import * as protoLoader from '@grpc/proto-loader';
-import { ProtoGrpcType } from '~/proto/character';
+import { ProtoGrpcType } from '~/proto/item';
 import { ItemHandlers } from '~/proto/nextmu/item/v1/Item';
 import { deleteItems, saveItems } from '~/services/mongodb/item';
 import { ZItemDeleteRequest, ZItemSaveRequest } from '../types/item';

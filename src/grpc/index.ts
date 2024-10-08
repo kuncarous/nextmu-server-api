@@ -12,11 +12,11 @@ export const Initialize = async () => {
     });
 
     server.addService(
-        nodeService.proto.nextmu.character.v1.Character.service,
+        nodeService.proto.nextmu.node.v1.Node.service,
         nodeService.service,
     );
     server.addService(
-        sessionService.proto.nextmu.character.v1.Character.service,
+        sessionService.proto.nextmu.session.v1.Session.service,
         sessionService.service,
     );
     server.addService(
@@ -24,7 +24,7 @@ export const Initialize = async () => {
         characterService.service,
     );
     server.addService(
-        itemService.proto.nextmu.character.v1.Character.service,
+        itemService.proto.nextmu.item.v1.Item.service,
         itemService.service,
     );
     server.bindAsync(

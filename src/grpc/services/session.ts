@@ -1,7 +1,7 @@
 import * as grpc from '@grpc/grpc-js';
 import * as protoLoader from '@grpc/proto-loader';
-import { ProtoGrpcType } from '~/proto/character';
 import { SessionHandlers } from '~/proto/nextmu/session/v1/Session';
+import { ProtoGrpcType } from '~/proto/session';
 import { updateServer } from '~/services/mongodb/node';
 import { validateSession } from '~/services/mongodb/session';
 import {

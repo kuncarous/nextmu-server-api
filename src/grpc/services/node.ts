@@ -1,7 +1,7 @@
 import * as grpc from '@grpc/grpc-js';
 import * as protoLoader from '@grpc/proto-loader';
-import { ProtoGrpcType } from '~/proto/character';
 import { NodeHandlers } from '~/proto/nextmu/node/v1/Node';
+import { ProtoGrpcType } from '~/proto/node';
 import { updateServer } from '~/services/mongodb/node';
 import { ZNodeHeartbeatRequest } from '../types/node';
 import { defaultProtoLoaderConfig } from '../utils/config';
